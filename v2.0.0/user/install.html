@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. Installation &mdash; DTOcean 2.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="3. Getting Started 1: Example Project" href="getting_started_1.html" />
+    <link rel="prev" title="1. Introduction" href="intro.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> DTOcean
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">User Guide</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">1. Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#recommended-specifications">2.1. Recommended Specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#graphical-application">2.2. Graphical Application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installation-wizard">2.2.1. Installation Wizard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#anaconda-package">2.2.2. Anaconda Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#database">2.3. Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuration-files">2.4. Configuration Files</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#updating">2.4.1. Updating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">2.4.2. Installation Wizard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">2.4.3. Anaconda Package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#file-locations">2.4.4. File Locations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started_1.html">3. Getting Started 1: Example Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started_2.html">4. Getting Started 2: Example Database</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gui.html">5. Graphical User Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_preparation.html">6. Data Preparation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DTOcean</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>2. Installation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/user/install.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installation">
+<span id="install"></span><h1>2. Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="recommended-specifications">
+<h2>2.1. Recommended Specifications<a class="headerlink" href="#recommended-specifications" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Windows 64-bit operating system</li>
+<li>At least 2GHz clock speed CPU</li>
+<li>At least 8GB RAM</li>
+</ul>
+</div></blockquote>
+<p>32-bit Windows operating systems are supported; however, the memory capabilities
+of such a system may not be sufficient for large simulations using DTOcean.
+Currently, Windows is the only supported operating system.</p>
+</div>
+<div class="section" id="graphical-application">
+<h2>2.2. Graphical Application<a class="headerlink" href="#graphical-application" title="Permalink to this headline">¶</a></h2>
+<p>The DTOcean graphical application is packaged as a standalone wizard-based
+installer or as an <a class="reference external" href="https://www.anaconda.com/download/">Anaconda Python Distribution</a> package. The Anaconda
+packages are released most frequently to test bug fixes and new features
+before including them in a standalone installer release. Thus, the standalone
+installer should be considered as more stable than the Anaconda version.</p>
+<div class="section" id="installation-wizard">
+<h3>2.2.1. Installation Wizard<a class="headerlink" href="#installation-wizard" title="Permalink to this headline">¶</a></h3>
+<p>The latest version of the DTOcean installation wizard can be downloaded from
+<a class="reference external" href="https://github.com/DTOcean/dtocean/releases">Github</a>.</p>
+<p>Download the installer for  your system architecture and then double-click the
+file. Follow the on-screen prompts to complete the installation.</p>
+<p>Note, when using the “All Users” option, uninstallation can only be conducted
+using the account that was used to install DTOcean.</p>
+<p>Once installed, start DTOcean from the Windows start menu folder appropriate
+to your architecture. For instance, for a 64-bit architecture DTOcean is found
+in the “DTOcean (64-bit)” folder.</p>
+<p>DTOcean can be uninstalled through the link in the Windows start menu folder or
+using the control panel.</p>
+</div>
+<div class="section" id="anaconda-package">
+<h3>2.2.2. Anaconda Package<a class="headerlink" href="#anaconda-package" title="Permalink to this headline">¶</a></h3>
+<p>Alternatively, DTOcean is also available to install using the <a class="reference external" href="https://www.anaconda.com/download/">Anaconda Python
+Distribution</a>. Once Anaconda is installed, the following steps can be used to
+install DTOcean:</p>
+<ol class="arabic">
+<li><p class="first">Open the “Anaconda Prompt” program from the “Anaconda” Windows start menu
+folder</p>
+</li>
+<li><p class="first">Create an environment for DTOcean:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">_dtocean</span> <span class="n">python</span><span class="o">=</span><span class="mf">2.7</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Activate the environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">_dtocean</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Download the <a class="reference external" href="https://raw.githubusercontent.com/DTOcean/dtocean-app/master/.condarc"><code class="docutils literal notranslate"><span class="pre">.condarc</span></code></a> file for dtocean-app, save it and copy it to the
+root of the environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">copy</span> <span class="o">.</span><span class="n">condarc</span> <span class="o">%</span><span class="n">CONDA_PREFIX</span><span class="o">%</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<ol class="arabic" start="4">
+<li><p class="first">Install the DTOcean application and modules (this step may take some time):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">dtocean</span><span class="o">-</span><span class="n">app</span> <span class="o">^</span>
+              <span class="n">dtocean</span><span class="o">-</span><span class="n">hydrodynamics</span> <span class="o">^</span>
+              <span class="n">dtocean</span><span class="o">-</span><span class="n">electrical</span> <span class="o">^</span>
+              <span class="n">dtocean</span><span class="o">-</span><span class="n">moorings</span> <span class="o">^</span>
+              <span class="n">dtocean</span><span class="o">-</span><span class="n">installation</span> <span class="o">^</span>
+              <span class="n">dtocean</span><span class="o">-</span><span class="n">maintenance</span> <span class="o">^</span>
+              <span class="n">dtocean</span><span class="o">-</span><span class="n">economics</span> <span class="o">^</span>
+              <span class="n">dtocean</span><span class="o">-</span><span class="n">reliability</span> <span class="o">^</span>
+              <span class="n">dtocean</span><span class="o">-</span><span class="n">environment</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>In the above steps, press enter or answer “y” when prompted.</p>
+<p>The DTOcean Hydrodynamics Data package must be installed separately and can
+be downloaded from <a class="reference external" href="https://github.com/DTOcean/dtocean/releases">Github</a>.
+Download the installer and double-click the file. Follow the on-screen prompts
+to complete the installation.</p>
+<p>DTOcean can now be started using the following steps:</p>
+<ol class="arabic">
+<li><p class="first">Open the “Anaconda Prompt” program from the “Anaconda” Windows start menu
+folder</p>
+</li>
+<li><p class="first">Activate the _dtocean environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">_dtocean</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Start the dtocean application:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtocean</span><span class="o">-</span><span class="n">app</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Optionally, start dtocean in debug mode:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtocean</span><span class="o">-</span><span class="n">app</span> <span class="o">--</span><span class="n">debug</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>DTOcean can be uninstalled with the following process:</p>
+<ol class="arabic">
+<li><p class="first">Open the “Anaconda Prompt” program from the “Anaconda” Windows start menu
+folder</p>
+</li>
+<li><p class="first">Remove the _dtocean environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">remove</span> <span class="o">-</span><span class="n">n</span> <span class="n">_dtocean</span> <span class="o">--</span><span class="nb">all</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Uninstall the DTOcean Hydrodynamic Data through the Windows start menu or
+control panel.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="database">
+<span id="database-installation"></span><h2>2.3. Database<a class="headerlink" href="#database" title="Permalink to this headline">¶</a></h2>
+<p>The use of DTOcean is supported by a persistent PostgreSQL database. The
+latest version of the database package can be downloaded from <a class="reference external" href="https://github.com/DTOcean/dtocean-database/releases">Github</a> and installation
+instructions are included within the package.</p>
+</div>
+<div class="section" id="configuration-files">
+<span id="id1"></span><h2>2.4. Configuration Files<a class="headerlink" href="#configuration-files" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="updating">
+<h3>2.4.1. Updating<a class="headerlink" href="#updating" title="Permalink to this headline">¶</a></h3>
+<p>When upgrading DTOcean, it may be necessary to update its configuration files.
+This is particularly important for users of DTOcean version 1.*, moving to
+version 2.*. Options for updating the database and logging configuration files
+are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>overwriting old files with the new default settings (which requires no
+further user interaction) or,</li>
+<li>copying the new configuration files alongside the old, so that the user
+can manually merge them.</li>
+</ul>
+</div></blockquote>
+<p>The method for updating the configuration files varies depending on how DTOcean
+was installed.</p>
+</div>
+<div class="section" id="id2">
+<h3>2.4.2. Installation Wizard<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>If DTOcean was installed using the installation wizard, then utility functions
+are included in the DTOcean start menu folder alongside the main executable
+(and in the <strong>Config</strong> folder for Windows versions prior to Windows 8).</p>
+<p>The utilities are named as follows:</p>
+<dl class="docutils">
+<dt>Database:</dt>
+<dd><ul class="first last simple">
+<li>Overwrite Database Config</li>
+<li>Copy Database Config (Safe)</li>
+</ul>
+</dd>
+<dt>Logging:</dt>
+<dd><ul class="first last simple">
+<li>Overwrite Logger Config</li>
+<li>Copy Logger Config (Safe)</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="id3">
+<h3>2.4.3. Anaconda Package<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>If DTOcean is installed as an Anaconda package then the configuration files
+are updated using specific command line utilities.</p>
+<p class="rubric">Database:</p>
+<p>To update the database configuration files:</p>
+<ol class="arabic">
+<li><p class="first">Open the “Anaconda Prompt” program from the “Anaconda” Windows start menu
+folder</p>
+</li>
+<li><p class="first">Activate the _dtocean environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">_dtocean</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Copy the new configuration files next to the old:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtocean</span><span class="o">-</span><span class="n">core</span><span class="o">-</span><span class="n">config</span> <span class="n">database</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Or, overwrite the old files:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtocean</span><span class="o">-</span><span class="n">core</span><span class="o">-</span><span class="n">config</span> <span class="n">database</span> <span class="o">--</span><span class="n">overwrite</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p class="rubric">Logging:</p>
+<p>To update the logger configuration files:</p>
+<ol class="arabic">
+<li><p class="first">Open the “Anaconda Prompt” program from the “Anaconda” Windows start menu
+folder</p>
+</li>
+<li><p class="first">Activate the _dtocean environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">_dtocean</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Copy the new configuration files next to the old:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtocean</span><span class="o">-</span><span class="n">app</span><span class="o">-</span><span class="n">config</span> <span class="n">logging</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Or, overwrite the old files:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtocean</span><span class="o">-</span><span class="n">app</span><span class="o">-</span><span class="n">config</span> <span class="n">logging</span> <span class="o">--</span><span class="n">overwrite</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="file-locations">
+<h3>2.4.4. File Locations<a class="headerlink" href="#file-locations" title="Permalink to this headline">¶</a></h3>
+<p>The location of the configuration files, if the user chooses to merge their old
+settings into the new configuration file, are:</p>
+<dl class="docutils">
+<dt>Database:</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">C:\Users\&lt;USERNAME&gt;\AppData\Roaming\DTOcean\dtocean_core\config\database.yaml</span></code>
+<code class="docutils literal notranslate"><span class="pre">C:\Users\&lt;USERNAME&gt;\AppData\Roaming\DTOcean\dtocean_core\config\database.yaml.new</span></code></dd>
+<dt>Logging:</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">C:\Users\&lt;USERNAME&gt;\AppData\Roaming\DTOcean\dtocean_app\config\logging.yaml</span></code>
+<code class="docutils literal notranslate"><span class="pre">C:\Users\&lt;USERNAME&gt;\AppData\Roaming\DTOcean\dtocean_app\config\logging.yaml.new</span></code></dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="getting_started_1.html" class="btn btn-neutral float-right" title="3. Getting Started 1: Example Project" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="intro.html" class="btn btn-neutral float-left" title="1. Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016-2019 The DTOcean Developers
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Other Versions</span>
+        v: v2.0.0
+        <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+        <dl>
+            <dt>Tags</dt>
+            <dd><a href="../../v1.0.0/index.html">v1.0.0</a></dd>
+            <dd><a href="install.html">v2.0.0</a></dd>
+        </dl>
+        <dl>
+            <dt>Branches</dt>
+            <dd><a href="../../master/user/install.html">master</a></dd>
+        </dl>
+    </div>
+</div>
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
