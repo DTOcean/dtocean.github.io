@@ -5,7 +5,8 @@ REM in the _sphinx conda environment
 
 CALL activate _sphinx
 sphinx-versioning build ^
-                  -r experimental ^
+                  -t ^
                   . ^
                   _build\html ^
                   -- -D html_theme=sphinx_rtd_theme
+deactivate
