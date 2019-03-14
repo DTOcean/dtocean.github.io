@@ -4,7 +4,8 @@ REM Assumes sphinx, sphinx_rtd_theme and sphinxcontrib-versioning are installed
 REM in the _sphinx conda environment
 
 CALL activate _sphinx
-sphinx-versioning push ^
+sphinx-versioning -e .gitignore -e .nojekyll -e README.rst ^
+                  push ^
                   -t ^
                   . ^
                   gh-pages ^
