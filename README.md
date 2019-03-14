@@ -7,10 +7,13 @@ documentation or installed for offline use with the DTOcean graphical interface
 
 ## Offline Manuals 
 
-The DTOcean Manuals installation wizard (for 64 or 32-bit) can be downloaded
-from the [Releases](https://github.com/DTOcean/dtocean.github.io/releases) page.
+The DTOcean Manuals installation wizard can be downloaded from the [Releases](
+https://github.com/DTOcean/dtocean.github.io/releases) page.
 
 Once downloaded, simply double-click the file and follow the instructions.
+
+This provides offline access to the manuals when using the DTOcean graphical 
+interface, which should be installed alongside the manuals. 
 
 ## PDFs 
 
@@ -28,8 +31,9 @@ for information regarding development of the DTOcean ecosystem.
 
 ## Credits
 
-This documentation was initially created as part of the [EU DTOcean project](
-https://www.dtoceanplus.eu/About-DTOceanPlus/History) by:
+This documentation was initially created by the consortium members of the 
+[EU DTOcean project](https://www.dtoceanplus.eu/About-DTOceanPlus/History) 
+and packaged by:
 
  * Rui Duarte at [France Energies Marines](https://www.france-energies-marines.org/)
  * Mathew Topper at [TECNALIA](https://www.tecnalia.com)
